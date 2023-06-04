@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -119,6 +119,12 @@ h6 {
   font-size: 0.8rem;
 }
 
+.title {
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 /* GENERAL IMAGE STYLES */
 
 img {
@@ -146,7 +152,7 @@ img {
 .btn:hover {
   background-color: transparent;
   border-color: var(--color-light);
-  transform: translateY(-0.5rem);
+  transform: translateY(-0.25rem);
 }
 
 .btn.white {

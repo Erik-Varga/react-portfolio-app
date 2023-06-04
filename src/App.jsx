@@ -13,7 +13,6 @@ import FloatingNav from './sections/floating-nav/FloatingNav';
 function App() {
   return (
     <main>
-      <h1>Erik's Portfolio App</h1>
       <Navbar />
       <Header />
       <About />

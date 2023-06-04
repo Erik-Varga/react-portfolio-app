@@ -19,8 +19,8 @@ nav {
 }
 
 .nav__logo {
-    width: 3.0rem;
-    height: 3.0rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -40,6 +40,9 @@ nav {
 
 /* HIDE NAV MENU ON TABLETS AND PHONES */
 @media screen and (max-width: 1024px) {
+    nav {
+        width: 100%;
+    }
     .nav__menu {
         display: none;
     }
