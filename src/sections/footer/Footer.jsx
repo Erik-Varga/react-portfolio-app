@@ -1,10 +1,12 @@
 import React from 'react';
+import './footer.css'
 import { AiFillGithub } from "react-icons/ai";
 import { BsCodeSlash } from "react-icons/bs";
 
-export default function Footer() {
+const Footer = () => {
   return (
-    <div className='footer'>
+    <section id='footer' className='footer'>
+        <h2>Footer</h2>
         <p>
             <a href="https://github.com/Erik-Varga" target="_blank" rel="noreferrer">
                 &copy; {(new Date().getFullYear())} Erik Varga | Web Developer
@@ -17,6 +19,8 @@ export default function Footer() {
             Source Code &nbsp;<BsCodeSlash />
             </a>
         </p>
-    </div>
+    </section>
   )
 }
+
+export default Footer
