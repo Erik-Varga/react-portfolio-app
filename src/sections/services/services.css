@@ -1,0 +1,46 @@
+.services__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+}
+
+.card.service {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.service__icon {
+    background-color: var(--color-primary);
+    font-size: 1.5rem;
+    color: var(--color-white);
+    border-radius: var(--border-radius-3);
+    width: fit-content;
+    margin-inline: auto;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+}
+
+.service:hover .service__icon {
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+.service h4 {
+    margin-bottom: 0.7rem;
+}
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .services__container {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+    
+    .card.service {
+        gap: 1.2rem;
+
+    }
+}
